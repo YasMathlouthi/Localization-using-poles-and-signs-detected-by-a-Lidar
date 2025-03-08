@@ -20,10 +20,10 @@ The goals of this project include:
    git clone https://github.com/YasMathlouthi/Localization-using-poles-and-signs-detected-by-a-Lidar
 
 2.   **Navigate to the main files:**
--ekf2.m for EKF simulations.
--ekfreal.m for applying EKF on real data.
--ukf.m for UKF simulations.
--ukf_real.m for applying UKF on real data.
+- ekf2.m for EKF simulations.
+- ekfreal.m for applying EKF on real data.
+- ukf.m for UKF simulations.
+- ukf_real.m for applying UKF on real data.
 These scripts maintain the solution for each scenario and can be run in MATLAB to replicate the experiments.
 
 3. **View results:** Numerical results and trajectories plots.
