@@ -13,22 +13,18 @@ The goals of this project include:
 - Implementing and evaluating the UKF on both simulated and real data.
 - Comparing the performance of EKF and UKF in terms of accuracy and robustness.
 
-## Repository Structure
+## Getting Started
 
-```plaintext
-/
-|- data/
-|  |- data.mat           # Dataset including GNSS, lidar observations, and reference trajectories.
-|
-|- src/
-|  |- ekf.m              # Extended Kalman Filter implementation (applied on simulated data sets).
-|  |- ekfreal.m          # EKF applied on real data sets.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YasMathlouthi/Localization-using-poles-and-signs-detected-by-a-Lidar
 
-|  |- ukf.m              # Unscented Kalman Filter implementation (applied on simulated data sets).
-|  |- ukf_real.m         # Unscented applied on real data sets
-|
-|- docs/
-|  |- Project_Report.pdf # Detailed project report.
-|
-|- README.md
+2.   **Navigate to the main files:**
+-ekf2.m for EKF simulations.
+-ekfreal.m for applying EKF on real data.
+-ukf.m for UKF simulations.
+-ukf_real.m for applying UKF on real data.
+These scripts maintain the solution for each scenario and can be run in MATLAB to replicate the experiments.
+
+3. **View results:** Numerical results and trajectories plots.
 
